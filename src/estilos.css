@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+/* Estilo para el contenedor principal */
+.padre {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://www.shutterstock.com/image-photo/development-programming-coding-technology-concept-260nw-2501255577.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  /* Estilo para el menú horizontal */
+  nav {
+    background-color: rgba(22, 21, 21, 0.8);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilo para el contenido principal */
+  .main-content {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Estilo común para todos los componentes de contenido */
+  .uno, .dos, .tres, .cuatro, .cinco, .seis {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para los títulos (encabezados) */
+  h2 {
+    color: #333; /* Color del texto del encabezado */
+    font-size: 28px; /* Aumentamos el tamaño de la fuente */
+    font-weight: bold; /* Ponemos el texto en negrita */
+    margin-bottom: 15px; /* Separación entre el encabezado y el texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para que resalte */
+  }
+  
+  /* Estilo para los párrafos */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Estilos con fondo diferente para cada sección */
+  .uno {
+    background-color: #f9f9f9;
+  }
+  
+  .dos {
+    background-color: #eaf2f1;
+  }
+  
+  .tres {
+    background-color: #f1f8e9;
+  }
+  
+  .cuatro {
+    background-color: #fff3e0;
+  }
+  
+  .cinco {
+    background-color: #e3f2fd;
+  }
+  
+  .seis {
+    background-color: #ffecb3;
+  }
+  
